@@ -71,7 +71,7 @@ Users can gain knowledge of different topics such as:
 
 
 ###  Mood Checker and Control
-![Mood_Checker_&_Control](Screenshot/Mood_Controll.png)
+![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
 
 
 ## Breathing Process
