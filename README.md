@@ -10,9 +10,6 @@ The project combines a conversational support assistant with relaxation activiti
 
 ##  Features
 
-###  Home Page
-![Home Page](Screenshot/Front_Page.png)
-
 
 ###  SANO Chatbot
 - Conversational support assistant named **SANO**
@@ -21,11 +18,38 @@ The project combines a conversational support assistant with relaxation activiti
 - Provides guidance to seek trusted people or emergency services during crisis situations
 
 
+###  Home Page
+![Home Page](Screenshot/Front_Page.png)
+
+### Chat with AI
+
+
+
+###  Chatbot_AI
+![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
+
+
 ###  Mental Health Articles
 Users can explore articles and information related to mental health and well-being.
 
+
+###  Article_Section
+![Article_Section](Screenshot/Article.png)
+
+
 ###  Mental Health Research
 A dedicated section for exploring mental health research and related information.
+
+
+###  Research Area
+![Research_Area](Screenshot/research.png)
+
+
+### About our Care
+
+###  About Us
+![About_Us](Screenshot/About_Section.png)
+
 
 ###  Mood Support
 Users can select different moods such as:
