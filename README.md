@@ -52,14 +52,18 @@ A dedicated section for exploring mental health research and related information
 
 ###  Research Area
 ![Research_Area](Screenshot/research.png)
+- SANO is a mental healthcare and emotional well-being support platform created to provide users with a friendly and accessible digital space for self-care and mental wellness.
 
+The platform combines AI-powered conversational support with mood-based guidance, meditation, breathing exercises, relaxing music, articles, and mental health research resources.
 
-### About our Care
+SANO was developed as a practical project to explore how web development and AI technology can be combined to create a supportive and user-friendly mental wellness platform.
+
+> **Note:** SANO is an educational/support project and does not provide professional medical diagnosis or treatment.
 
 ###  About Us
 ![About_Us](Screenshot/About_Section.png)
 
-
+```
 ###  Mood Support
 Users can select different moods such as:
 
@@ -72,15 +76,15 @@ Users can select different moods such as:
 
 The website provides supportive suggestions based on the selected mood.
 
-
-
+```
+```
 ###  Relaxing Music
 The platform provides different categories of music for relaxation and emotional well-being.
 
 
 
 ###  Meditation 
-- Meditation is the practice of stepping back from your thoughts,allowing your mind to rest and instantly releasing the grip of mental pressure.
+- Meditation is the practice of stepping back from your thoughts, allowing your mind to rest and instantly releasing the grip of mental pressure.
 
 
 
@@ -91,8 +95,9 @@ The platform provides different categories of music for relaxation and emotional
 ### Gaming
 - Gaming serves as a cognitive playground that improves mental health by providing safe spaces to fail, practice emotional regulation, and achieve a deep state of mental focus.
 
+```
 
-
+```
 ###  Knowledge Section
 Users can gain knowledge of different topics such as:
 
@@ -102,6 +107,7 @@ Users can gain knowledge of different topics such as:
 - Sleep
 - Relationships
 
+```
 
 ###  Mood Checker and Control
 ![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
@@ -198,6 +204,11 @@ python chatbot.py
 Go to:
 ```
 http://127.0.0.1:5000/
+```
+
+The Frontpage is available at:
+```
+http://127.0.0.1:5000
 ```
 
 The chatbot is available at:
