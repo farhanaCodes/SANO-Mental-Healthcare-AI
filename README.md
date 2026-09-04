@@ -11,7 +11,7 @@ The project combines a conversational support assistant with relaxation activiti
 ##  Features
 
 
-###  SANO Chatbot
+##  SANO Chatbot
 - Conversational support assistant named **SANO**
 - Provides empathetic and supportive responses
 - Designed to avoid diagnosing mental health conditions
@@ -22,7 +22,7 @@ The project combines a conversational support assistant with relaxation activiti
 ![Home Page](Screenshot/Front_Page.png)
 
 
-###  SANO Chatbot AI
+##  SANO Chatbot AI
 
 SANO includes an AI-powered conversational assistant that provides friendly and supportive responses to users.
 
@@ -38,7 +38,7 @@ SANO includes an AI-powered conversational assistant that provides friendly and 
 ![Mood_Checker_&_Control](Screenshot/Chatbot.png)
 
 
-###  Mental Health Articles
+##  Mental Health Articles
 Users can explore articles and information related to mental health and well-being.
 
 
@@ -46,7 +46,7 @@ Users can explore articles and information related to mental health and well-bei
 ![Article_Section](Screenshot/Article.png)
 
 
-###  Mental Health Research
+##  Mental Health Research
 A dedicated section for exploring mental health research and related information.
 
 
@@ -54,7 +54,7 @@ A dedicated section for exploring mental health research and related information
 ![Research_Area](Screenshot/research.png)
 
 
-###  About Us
+##  About Us
 SANO is a mental healthcare and emotional well-being support platform created to provide users with a friendly and accessible digital space for self-care and mental wellness.
 
 The platform combines AI-powered conversational support with mood-based guidance, meditation, breathing exercises, relaxing music, articles, and mental health research resources.
@@ -206,11 +206,6 @@ python chatbot.py
 Go to:
 ```
 http://127.0.0.1:5000/
-```
-
-The Frontpage is available at:
-```
-http://127.0.0.1:5000
 ```
 
 The chatbot is available at:
