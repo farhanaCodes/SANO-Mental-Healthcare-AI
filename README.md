@@ -162,7 +162,7 @@ Mental Healthcare/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/farhanaCodes/SANO-Mental-Healthcare-AI
+https://github.com/farhanaCodes/SANO-Mental-Healthcare-AI
 ```
 
 ### 2. Open the project folder
@@ -213,14 +213,6 @@ The project uses an environment variable for the API key.
 
 ```
 GEMINI_API_KEY=YOUR_API_KEY_HERE
-```
-
-Make sure `.env` is included in `.gitignore`:
-
-```
-.env
-__pycache__/
-*.pyc
 ```
 
 ---
