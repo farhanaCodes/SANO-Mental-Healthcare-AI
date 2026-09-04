@@ -97,8 +97,7 @@ The platform provides different categories of music for relaxation and emotional
 ## Gaming
 - Gaming serves as a cognitive playground that improves mental health by providing safe spaces to fail, practice emotional regulation, and achieve a deep state of mental focus.
 
-```
-```
+
 
 ##  Knowledge Section
 Users can gain knowledge of different topics such as:
