@@ -21,12 +21,21 @@ The project combines a conversational support assistant with relaxation activiti
 ###  Home Page
 ![Home Page](Screenshot/Front_Page.png)
 
-### Chat with AI
 
+###  SANO Chatbot AI
+
+SANO includes an AI-powered conversational assistant that provides friendly and supportive responses to users.
+
+- Powered by **Google Gemini API**
+- Built using **Python, Flask, and JavaScript**
+- Provides empathetic conversational support
+- Responds to users' messages in real time
+- Designed not to diagnose mental health conditions
+- Encourages users to seek trusted people or professional help during crisis situations
 
 
 ###  Chatbot_AI
-![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
+![Mood_Checker_&_Control](Screenshot/Chatbot.png)
 
 
 ###  Mental Health Articles
@@ -98,18 +107,6 @@ Users can gain knowledge of different topics such as:
 ![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
 
 
-## Breathing Process
-- Guided breathing exercises
-- Inhale, hold, and exhale cycles
-- Breathing session timer
-- Pause and end controls
-
----
-###  Breathing_Process
-![Meditation](Screenshot/Breathing_Process.png)
-
-
-
 
 ##  Technologies Used
 
@@ -157,8 +154,6 @@ Mental Healthcare/
 │   ├── music.html
 │   └── research.html
 │
-├── .env
-├── .gitignore
 ├── chatbot.py
 └── README.md
 ```
@@ -167,7 +162,7 @@ Mental Healthcare/
 
 ### 1. Clone the repository
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/farhanaCodes/SANO-Mental-Healthcare-AI
 ```
 
 ### 2. Open the project folder
@@ -192,7 +187,6 @@ Add your API key:
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 ```
 
-**Never upload your `.env` file or API key to GitHub.**
 
 ### 5. Start the Flask server
 ```bash
@@ -213,7 +207,7 @@ http://127.0.0.1:5000/chatbot
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 The project uses an environment variable for the API key.
 
@@ -231,7 +225,7 @@ __pycache__/
 
 ---
 
-## 💡 How the Chatbot Works
+##  How the Chatbot Works
 
 The chatbot follows this flow:
 
@@ -255,7 +249,15 @@ The frontend sends the user's message to the Flask backend using a POST request.
 
 ---
 
-## 🧘 Breathing Exercise
+
+
+##  Breathing Exercise
+- Guided breathing exercises
+- Inhale, hold, and exhale cycles
+- Breathing session timer
+- Pause and end controls
+
+
 
 SANO includes a simple breathing exercise based on:
 
@@ -270,9 +272,15 @@ The interface includes:
 
 This feature is designed to encourage relaxation and mindful breathing.
 
+
+###  Breathing_Process
+![Meditation](Screenshot/Breathing_Process.png)
+
 ---
 
-## 🎯 Project Goals
+
+
+##  Project Goals
 
 The main goals of SANO are to:
 
@@ -284,24 +292,24 @@ The main goals of SANO are to:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible future improvements include:
 
-- 💬 Conversation history stored securely in a database
-- 👤 User accounts and authentication
-- 🎨 Improved responsive UI for mobile devices
-- 🧠 More personalized wellness recommendations
-- 🎤 Voice input and voice responses
-- 🌐 Multi-language support
-- 📊 Mood tracking and visualization
-- 🔔 Wellness reminders
-- 🔐 Improved privacy and security
-- 🆘 Better crisis-resource handling based on the user's location
+-  Conversation history stored securely in a database
+-  User accounts and authentication
+-  Improved responsive UI for mobile devices
+-  More personalized wellness recommendations
+-  Voice input and voice responses
+-  Multi-language support
+-  Mood tracking and visualization
+-  Wellness reminders
+-  Improved privacy and security
+-  Better crisis-resource handling based on the user's location
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 SANO is a student/educational software project intended to provide general emotional support and mental health information.
 
@@ -311,7 +319,7 @@ If someone is experiencing a mental health crisis or is in immediate danger, the
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Farhana Sultana**
 
@@ -321,17 +329,31 @@ This project was developed as a practical project to explore:
 - JavaScript
 - Mental health technology
 
+
+### Backend
+- Python
+- Flask
+- Flask-CORS
+
+### AI
+- Google Gemini API
+- google-genai
+
+### Other Tools
+- Python Dotenv
+- LocalStorage for chat history
+  
 ---
 
-## ⭐ Acknowledgements
+##  Acknowledgements
 - Flask
 - Python
 - Open-source web development resources
 
 ---
 
-## 📌 Project Status
+##  Project Status
 
-🚧 Currently under development
+ Currently under development
 
 New features and improvements may be added in the future.
