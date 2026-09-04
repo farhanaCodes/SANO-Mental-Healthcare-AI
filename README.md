@@ -11,7 +11,7 @@ The project combines a conversational support assistant with relaxation activiti
 ##  Features
 
 ###  Home Page
-![Home Page](Screenshots/Front_Page.png)
+![Home Page](Screenshot/Front_Page.png)
 
 
 ###  SANO Chatbot
@@ -71,7 +71,7 @@ Users can gain knowledge of different topics such as:
 
 
 ###  Mood Checker and Control
-![Mood_Checker_&_Control](./Screenshots/Mood_Control.png)
+![Mood_Checker_&_Control](Screenshot/Mood_Controll.png)
 
 
 ## Breathing Process
@@ -82,7 +82,7 @@ Users can gain knowledge of different topics such as:
 
 ---
 ###  Breathing_Process
-![Meditation](./Screenshots/Breathing_Process.png)
+![Meditation](Screenshot/Breathing_Process.png)
 
 
 
