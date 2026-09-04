@@ -52,6 +52,9 @@ A dedicated section for exploring mental health research and related information
 
 ###  Research Area
 ![Research_Area](Screenshot/research.png)
+
+
+###  About Us
 - SANO is a mental healthcare and emotional well-being support platform created to provide users with a friendly and accessible digital space for self-care and mental wellness.
 
 The platform combines AI-powered conversational support with mood-based guidance, meditation, breathing exercises, relaxing music, articles, and mental health research resources.
@@ -60,9 +63,10 @@ SANO was developed as a practical project to explore how web development and AI 
 
 > **Note:** SANO is an educational/support project and does not provide professional medical diagnosis or treatment.
 
-###  About Us
+
 ![About_Us](Screenshot/About_Section.png)
 
+```
 ```
 ###  Mood Support
 Users can select different moods such as:
@@ -81,7 +85,8 @@ The website provides supportive suggestions based on the selected mood.
 ###  Relaxing Music
 The platform provides different categories of music for relaxation and emotional well-being.
 
-
+```
+```
 
 ###  Meditation 
 - Meditation is the practice of stepping back from your thoughts, allowing your mind to rest and instantly releasing the grip of mental pressure.
@@ -96,8 +101,8 @@ The platform provides different categories of music for relaxation and emotional
 - Gaming serves as a cognitive playground that improves mental health by providing safe spaces to fail, practice emotional regulation, and achieve a deep state of mental focus.
 
 ```
-
 ```
+
 ###  Knowledge Section
 Users can gain knowledge of different topics such as:
 
@@ -107,7 +112,7 @@ Users can gain knowledge of different topics such as:
 - Sleep
 - Relationships
 
-```
+
 
 ###  Mood Checker and Control
 ![Mood_Checker_&_Control](Screenshot/Mood_controll.png)
