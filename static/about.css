@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #b6f0fa;
+    color: #2b2b2b;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #dfe7f7;
+    color: #0f0591;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.about-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 29px;
+    color: #330dca;
+}
+
+.about-section, .contact-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.about-header, .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-header h2, .contact-header h2 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+    color: #050991;
+}
+
+.about-header p, .contact-header p {
+    font-size: 20px;
+    color: #232222;
+    margin: 0;
+}
+
+.about-grid, .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.about-card, .contact-card {
+    background-color: #ffffff;
+    border: 1px solid #d9e4e2;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.about-card h3, .contact-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 19px;
+    color: #202020;
+}
+
+.about-card p, .contact-card p {
+    font-size: 16px;
+    color: #424141;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.contact-card {
+    border-left: 4px solid #0e17cd;
+}

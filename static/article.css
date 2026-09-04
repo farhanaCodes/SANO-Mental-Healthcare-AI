@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    background:#4fa3a5;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    margin:30px;
+    gap:10px;
+}
+
+.search-box input{
+    width:350px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+.search-box button{
+    padding:12px 20px;
+    background:#4fa3a5;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.articles{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h2{
+    padding:15px;
+    font-size:22px;
+}
+
+.card p{
+    padding:0 15px 15px;
+    color:#555;
+    line-height:1.6;
+}
+
+.card a{
+    display:inline-block;
+    margin:0 15px 20px;
+    text-decoration:none;
+    color:#4fa3a5;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}

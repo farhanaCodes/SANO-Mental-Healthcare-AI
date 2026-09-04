@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/frontpage.css">
+        <title>mental Health Care</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <div id="headline">
+            <img id="icon" src="/static/images/whitementalhealth_icon.jpg">
+            <div>
+                <h2 id="title" >SANO</h2>
+                <p id="sub_title">Don't hesitate</p>
+                
+            </div>
+            <div class="options">
+                <button id="ai" ><u>Talk with ai</u></button>
+                <button id="article" ><u>Article</u></button>
+                <button id="research" ><u>Research</u></button>
+                <button id="about"  ><u>About us</u></button>
+            </div>
+        </div>
+        <div class="box">
+            <p id="p1">Your feelings are valid, and you deserved to be heard...</p>
+            <p id="p2">"Feel Sano Everyday !!!"</p>
+            <p id="p3">I am here to listen and offer support,But i am not a licensed medical professional.If you are experiencing serious mental concerns,Please consider reaching out to a qualified health care professional</p>
+
+
+        </div>
+        
+        <div class="mood_box">
+            <p id="p4">Tell me about your mood today</p>
+            <div class="img_box">
+
+                <div class="mood_item">
+                <button class="div_img" id="happy">
+                <img class="img"  src="/static/images/happy.jpg">
+                </button>
+                <p class="label">Happy</p>
+                </div>
+
+                <div class="mood_item">
+                <button class="div_img">
+                <img class="img" id="sad" src="/static/images/sad.jpg">
+                </button>
+                <p class="label">Sad</p>
+                </div>
+
+                <div class="mood_item">
+                <button class="div_img">
+                <img class="img" id="worried" src="/static/images/worried.png">
+                </button>
+                <p class="label">Worried</p>
+                </div>
+
+                <div class="mood_item">
+                    <button class="div_img"> 
+                    <img class="img" id="tired" src="/static/images/tired.ico">
+                    </button>
+                    <p class="label">Tired</p>
+                </div>
+
+                <div class="mood_item">
+                <button class="div_img">
+                <img class="img" id="scared" src="/static/images/scared.jpg">
+                </button>
+                <p class="label">Scared</p>
+                </div>
+
+                <div class="mood_item">
+                <button class="div_img">
+                <img class="img" id="angry" src="/static/images/angry.webp">
+                </button>
+                <p class="label">Angry</p>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="mood_box1">
+            <p id="p4">Feel relax with these</p>
+            <div class="img_box">
+
+                <div class="mood_item">
+                    <button class="div_img" id="music_label">
+                    <img class="img" src="https://t4.ftcdn.net/jpg/19/38/99/01/360_F_1938990151_1vv1YD4rXZHV9KlbagdvbA5V9BH67UDd.jpg">
+                    </button>
+                    <p class="label" >Music</p>
+                </div>
+
+                <div class="mood_item">
+                    <button class="div_img" id="meditation_label">
+                    <img class="img" src="https://cdn.vectorstock.com/i/1000v/67/35/yoga-meditation-symbol-vector-24016735.jpg">
+                    </button>
+                    <p class="label">Meditation</p>
+                </div>
+
+                <div class="mood_item">
+                    <button class="div_img" id="dance">
+                    <img class="img" src="https://thumbs.dreamstime.com/b/man-dancing-icon-v…ncing-logo-concept-man-dancing-icon-134335205.jpg">
+                    </button>
+                    <p class="label">Dance</p>
+                </div>
+
+                <div class="mood_item">
+                    <button class="div_img" id="game">
+                    <img class="img" src="https://thumbs.dreamstime.com/b/joystick-joypad-ga…retro-illustration-flat-vector-stock-80756896.jpg">
+                    </button>
+                    <p class="label">Games</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="safe_place">
+            <h1>YOUR SAFE SPACE</h1>
+            <p id="para"><u>Share your thoughts freely - I'm here to listen and support</u></p>
+            <div class="topics">
+                <h2>Frequently Asked Topics : </h2>
+                <button class="topic-btn" onclick="toggletopic('anxiety',this)">Anxiety</button>
+                <button class="topic-btn" onclick="toggletopic('depression',this)">Depression</button>
+                <button class="topic-btn" onclick="toggletopic('stress',this)">Stress</button>
+                <button class="topic-btn" onclick="toggletopic('sleep',this)">Sleep</button>
+                <button class="topic-btn" onclick="toggletopic('relationship',this)">Relationships</button>
+            </div>
+
+            <div class="panel" id="panel-anxiety">
+                <div class="panel-title"><b>you have problem with anxiety</b></div>
+                <p class="description">Anxiety is your body's natural alarm system — but sometimes it fires too often. It can feel like racing thoughts, a tight chest, or constant worry. Anxiety disorders involve excessive, persistent, and uncontrollable worry that can interfere significantly with daily life. These conditions are common, affecting nearly 30% of adults at some point in their lives, and are highly treatable. anxiety disorders involve excessive, persistent, and uncontrollable worry that can interfere significantly with daily life. These conditions are common, affecting nearly 30% of adults at some point in their lives, and are highly treatable. anxiety disorders involve excessive, persistent, and uncontrollable worry that can interfere significantly with daily life. These conditions are common, affecting nearly 30% of adults at some point in their lives, and are highly treatable. But you are not alone, and it is manageable.</p>
+                <div class="tips-grid">
+                    <div id="no1"><span><h2>1. Diaphragmatic Breathing (Deep Breathing) </h2></span> <p> <b>Technique : </b> Try "box breathing" (inhale for 4 seconds, hold for 4, exhale for 4, hold for 4) </p> <p><b>Process : </b> Close your eyes and inhale slowly through your nose, ensuring your belly rises. Exhale even more slowly through your mouth. A long exhale is key to signaling safety to your body. </p></div>
+
+                    <div id="no2"> <span><h2> 2. Cognitive Behavioral Therapy (CBT) and Thought Reframing  </h2></span> <p> CBT is a widely used, evidence-based therapy that helps you identify and challenge irrational or negative thought patterns that trigger anxiety. </p> <p> <b>Technique : </b> When you feel anxious, write down the thought. Ask: "Is this thought based on fact or feeling? Is it realistic?" </p> </div>
+
+                    <div id="no3"> <span><h2> 3. Physical Activity and Exercise </h2></span> <p>Regular exercise releases endorphins, which are natural feel-good brain chemicals that reduce stress and tension.</p> <p> <b>Immediate relief: </b>  A quick 10-minute walk or a few minutes of intense exercise (squats, jumping jacks) can provide immediate relief from high tension.</P> <p> <b>Technique : </b>  Aim for 150 minutes of moderate-intensity exercise per week (e.g., walking, cycling).</p> </div>
+
+                    <div id="no4"><span> <h2>4. Grounding Techniques (5-4-3-2-1 Method)</h2></span> <p>Grounding techniques pull your focus away from anxious thoughts and back to the present moment, helping to calm a fast-racing mind.</p>  <b>Process : </b>
+                    <p><b><u>5</u></b> things you can see. <b><u>4</u></b> things you can touch.</p>
+                    <p><b><u>3</u></b> things you can hear. <b><u>2</u></b> things you can smell.</p>
+                    <p><b><u>1</u></b> thing you can taste.</p> </div>
+                </div>
+
+            </div>
+
+              <div class="panel" id="panel-depression">
+                <div class="panel-title"><b>WHat is depression?</b></div>
+                <p class="description">Depression (major depressive disorder) is a serious, common medical illness that negatively affects how you feel, think, and act. Unlike temporary sadness or grief, clinical depression involves persistent feelings of sadness, emptiness, or hopelessness, along with a loss of interest in activities for at least two weeks. It is a treatable condition, but it is not something that can be fixed simply by "positive thinking".<br>  <br><b>Symptoms : </b>Symptoms vary from person to person but commonly include fatigue, sleep disturbances (too much or too little), appetite changes, feelings of worthlessness, trouble concentrating, and sometimes suicidal thoughts.</p>
+                <div class="tips-grid">
+                    <div id="no1"><span><h2>1. Engage in Regular Physical Exercise </h2></span> <p> Exercise is a powerful antidepressant that can be as effective as medication for some people.Physical activity stimulates the body to produce natural antidepressants known as endorphins and serotonin.</p> <P> <b>Process : </b> Aim for a 15- to 30-minute brisk walk daily, or break it into smaller "exercise snacks" (e.g., jumping jacks, stairs) throughout the day.  </p></div>
+
+                    <div id="no2"> <span><h2> 2. Practice Cognitive Behavioral Therapy (CBT)   </h2></span> <p> CBT is a form of talk therapy aimed at breaking negative thought patterns, such as self-doubt or guilt, that worsen depression. A mental health professional helps you identify, challenge, and replace unhealthy beliefs and behaviors with more positive ones. </p> <p> <b>Advice : </b> Look for a therapist or consider online CBT programs, which can be done in person or via telehealth.  </p> </div>
+
+                    <div id="no3"> <span><h2> 3. Establish a Routine and Prioritize Sleep </h2></span> <p>Depression often disrupts sleep patterns, which in turn feeds the depression.</p>  <P><b> Technique: </b>   Maintaining a consistent wake/sleep schedule stabilizes mood and helps replenish neurotransmitters.</P> <p><b>Process : </b>  Go to bed and wake up at the same time every day, and try to create a simple, gentle schedule for daily activities to feel in control. </p></div>
+
+                    <div id="no4"><span> <h2>4. Adopt a Healthy, Nutrient-Dense Diet </h2></span> <p> Diets rich in fruits, vegetables, whole grains, and lean proteins (like the Mediterranean diet) are linked to lower depression risks.</p> <p><b>Process : </b> Focus on incorporating more omega-3 fatty acids (like fish) and cutting down on processed, high-sugar foods and alcohol, which can make depression worse. </p> </div>
+                </div>
+
+            </div>
+
+            <div class="panel" id="panel-stress">
+                <div class="panel-title"><b>suffering with stress</b></div>
+                <p class="description">Stress is a natural physical and mental reaction to life experiences, changes, or challenges. It is the body's way of responding to a perceived threat or danger, often referred to as the "fight-or-flight" response, which floods the body with hormones like adrenaline and cortisol. While short-term stress can act as a motivator, chronic stress—when stressors continue without relief—can lead to serious physical and mental health issues.</p>
+                <div class="tips-grid">
+                    <div id="no1"><span><h2>1. Engage in Physical Activity  </h2></span> <p> Regular exercise is one of the most effective ways to manage stress. Aerobic exercise (like walking, running, swimming, or dancing) helps burn away tension and produces endorphins, which are natural mood lifters. <br> <b>Tip: </b> Aim for 30 minutes of moderate activity most days of the week, but even a 10-minute walk can help in the moment. </p> </div>
+                    <div id="no2"> <span><h2> 2. Practice Relaxation Techniques (Deep Breathing & Meditation)  </h2></span> <p>Relaxation activities activate the body’s relaxation response, lowering heart rate, blood pressure, and cortisol levels. <br> <b> Deep Breathing: </b> Perform diaphragmatic breathing—deep, slow breaths—to calm the nervous system. <br> <b> Meditation: </b> Practice mindfulness meditation, where you focus on the present moment, to reduce anxiety. </p> </div>
+
+                    <div id="no3"> <span><h2> 3. Connect with Others </h2></span> <p>Social connection is a powerful stress reliever. Reaching out to friends, family, or colleagues who make you feel safe and understood can buffer against stress. <br> <b>Solution : </b> If you cannot meet in person, a phone call or video chat can still provide emotional support. </p> </div>
+
+                    <div id="no4"><span> <h2> 4. Set Boundaries and Prioritize Tasks </h2></span> <p> Overcommitting is a major source of chronic stress. Learning to say "no" to extra responsibilities and prioritizing your daily tasks can help you regain a sense of control. <br> <b> Tip:</b> Identify "musts" vs. "shoulds" on your to-do list, and delegate or eliminate tasks that are not truly necessary. </p>  </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-sleep">
+                <div class="panel-title"><b>you have problem with Sleep</b></div>
+                <p class="description"> Sleep is a vital, active physiological process that allows the brain and body to rest, repair tissues, consolidate memories, and remove metabolic waste.While 7–9 hours is typical, some people can improve sleep quality to reduce the total hours needed without experiencing negative side effects.   </p>
+                <div class="tips-grid">
+                    <div id="no1"><span><h2>1. Optimize Sleep Quality (Improve Efficiency) </h2></span> <p> Instead of focusing on fewer hours, focus on higher-quality rest. By maximizing time in deep slow-wave sleep and REM sleep, you can feel more rested in less time. <br> <b> Process : </b> 1. Keep the bedroom dark, cool, and quiet: Use room-darkening shades and a fan.<br> 2. Remove electronics: Avoid phones/laptops 1 hour before bed. <br> 3. Use bed only for sleep: This trains the brain to fall asleep faster. </p></div>
+
+                    <div id="no2"> <span><h2> 2. Gradually Adjust Your Schedule </h2></span> <p>Do not abruptly reduce sleep by hours, as this will backfire. Instead, gradually adjust your wake-up time. <br> <b>The 20-minute rule: </b> For the first week, get up 20 minutes earlier than usual. The next week, 20 minutes earlier again. This allows the body to adapt to a lower sleep quota without high stress. </p> </div>
+
+                    <div id="no3"> <span><h2> 3. Practice Strict Circadian Consistency </h2></span> <p>Waking up at the same time every day—including weekends—reinforces the body's internal clock, allowing you to wake up rested, even after fewer hours. <br> <b> Get sunlight immediately: </b> Expose yourself to natural light within minutes of waking up. This signals the brain to stop melatonin production and start the day.</p> </div>
+
+                    <div id="no4"><span> <h2> 4. Implement Strategic "Power Naps"</h2></span> <p>If cutting nighttime sleep, you can use short, 20-minute "power naps" during the day to reset your energy levels and avoid the afternoon crash. <br> <b> Avoid long naps: </b> Naps longer than 30 minutes can cause sleep inertia (feeling groggy). Keep them short and before 2 p.m.. </div>
+                </div>
+
+            </div>
+            
+            <div class="panel" id="panel-relationship">
+                <div class="panel-title"><b>you have problem with anxiety</b></div>
+                <p class="description">A relationship is the way in which two or more people are connected, or the way they behave and feel toward each other.It is a "two-way street" based on mutual, agreed-upon arrangements involving affection, support, and shared intimacy. <br> When a relationship becomes too tense, complex, or stressful, it can be beneficial to reduce that stress or complexity. Here are four effective ways to reduce relationship tension or complexity: </p>
+                <div class="tips-grid">
+                    <div id="no1"><span><h2>1. Practice Active Listening and Validating </h2></span> <p> Instead of rushing to offer solutions or acting defensively, active listening involves truly hearing your partner's concerns without interrupting. <br> <b> process: </b>  Use "I" statements to express feelings ("I feel frustrated when...") rather than blaming "You" statements. <br> # It makes both partners feel heard and understood, reducing the emotional tension that fuels conflict. </p></div>
+
+                    <div id="no2"> <span><h2> 2. Establish Clearer Boundaries and Autonomy   </h2></span> <p> Reducing the intensity of a relationship often means ensuring you do not lose your individual identity, which can lead to resentment. </p> <br> <b>Technique : </b> Create and respect personal boundaries by allocating time for individual hobbies, friends, and pursuits. <br> # It creates a healthier, more balanced dynamic rather than unhealthy dependency or total enmeshment  </div>
+
+                    <div id="no3"> <span><h2> 3. "Lower the Stakes" on Minor Issues </h2></span> <p> Many arguments in relationships are caused by small disagreements that are not truly important in the long run, but are treated as major conflicts. <br> <b>process : </b>  Ask yourself if the issue will matter next week. If not, agree to disagree, or simply let it go. <br> # It prevents unnecessary fights and frees up energy for positive connection rather than conflict.  </p> </div>
+
+                    <div id="no4"><span> <h2> 4. Use "Third-Person" Self-Distancing </h2></span> <p>When a conversation gets heated, it can be difficult to remain rational. <b>process : </b>  Look at the conflict as a distant observer, or even talk to yourself about the problem in the third person, using your own name. <br> #This method, supported by psychologists, can help you think more clearly and reduce personal emotional volatility in the moment. </p> </div>
+                </div>
+
+            </div>
+
+            <div class="write">
+                    <p id="para1">Hello! I'm your mental health companion. How are you feeling today?</p>
+                    <div class="type_box">
+                        <img id="mes_box" src="https://cdn.pixabay.com/photo/2021/12/06/22/37/send-icon-6851743_1280.png">
+                        <input class="type" type="text" placeholder="Type your message...">
+                    </div>
+            </div>
+        </div>
+
+        
+        <div class="breath">
+            <p id="para3">Start your Breathing </p>
+
+
+
+
+
+
+
+
+            <div class="breath-ring-wrap">
+                <div class="pulse-ring" id="r1">  </div>
+                <div class="pulse-ring" id="r2">  </div>
+                <div class="pulse-ring" id="r3">  </div>
+                <div class="idle" id="breathcircle">Breath</div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div id="breathlabel"></div>
+            <div id="breathsub"></div>
+            <div id="sessioninfo"></div>
+
+
+
+
+            <div id="time">00:00</div> 
+
+
+
+
+            <div class="switch">
+                <button id="start">▶ Start</button>
+                <button id="pause" disabled>⏸ Pause</button>
+                <button id="end" disabled>⏹ End</button>
+            </div>
+
+            <p id="describe">At least do 3 to 5 minutes to calm your nervous system. Focus on slow, rhythmic breaths—inhaling for 4-5 seconds and exhaling for 5-7 seconds—to reduce physical symptoms like chest tightness.</p>
+        </div>
+
+
+        <div class="footer_section">
+
+            <div class="footer_container">
+
+            
+                <div class="footer_col">
+                    <h3>About SANO</h3>
+                    <p>
+                    SANO is your personal mental wellness companion designed to help you feel heard, understood, and supported. 
+                    We believe that every emotion matters and everyone deserves a safe space to express themselves.
+                    </p>
+                    <p>
+                    Whether you're feeling happy, stressed, or overwhelmed, SANO is here to walk with you through your journey.
+                    </p>
+                </div>
+
+                
+                <div class="footer_col">
+                    <h3>What You Can Do</h3>
+                    <ul>
+                        <li>Talk with AI anytime</li>
+                        <li>Track your daily mood</li>
+                        <li>Explore helpful articles</li>
+                        <li>Access research insights</li>
+                        <li>Relax with activities</li>
+                    </ul>
+                </div>
+
+            
+                <div class="footer_col">
+                    <h3>Important Note</h3>
+                    <p>
+                        SANO provides emotional support through AI interaction, but it is not a substitute for professional medical advice, diagnosis, or treatment.
+                    </p>
+                    <p>
+                        Always seek the advice of a qualified mental health professional if you are experiencing serious concerns.
+                    </p>
+                </div>
+
+            
+                <div class="footer_col">
+                    <h3>Need Help?</h3>
+                    <p>
+                        If you are in distress or need immediate assistance, please reach out to:
+                    </p>
+                    <ul>
+                        <li>A trusted friend or family member</li>
+                        <li>A mental health professional</li>
+                        <li>Your local helpline</li>
+                    </ul>
+                    <p>
+                        Remember, you are not alone....
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+      
+        <script src="/static/code.js"></script>
+    
+    </body>
+</html>
